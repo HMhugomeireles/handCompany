@@ -1,0 +1,11 @@
+{
+  "name": "handcompany",
+  "version": "0.0.1",
+  "description": "The Control flow of One company",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Hugo Meireles",
+  "license": "ISC"
+}
