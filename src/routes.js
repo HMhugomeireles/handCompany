@@ -13,8 +13,8 @@ export const Routes = () => (
     <BrowserRouter>
       <GlobalStyle />
       <Switch>
-        <Route path="/login" component={Login} />
-        <PrivateRoute path="/" component={App}/>
+        <Route exact path="/" component={Login} />
+        <PrivateRoute exact path="/app" component={App}/>
       </Switch>
     </BrowserRouter>
   </AuthProvider>
