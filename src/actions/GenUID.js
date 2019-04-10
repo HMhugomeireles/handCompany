@@ -1,5 +1,7 @@
-import UUIDGenerator from 'react-native-uuid-generator';
+import Uuidv5 from 'uuid/v5'
 
-UUIDGenerator.getRandomUUID((uuid) => {
-  console.log(uuid);
-});
+export const GenUid = () => {
+  const value = new Date().getTime();
+  return Uuidv5(value.toString(), Uuidv5.DNS)
+};
+

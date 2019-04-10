@@ -17,7 +17,8 @@
     "react-icons": "^3.5.0",
     "react-native-uuid-generator": "^5.0.0",
     "react-router-dom": "^5.0.0",
-    "styled-components": "^4.2.0"
+    "styled-components": "^4.2.0",
+    "uuid": "^3.3.2"
   },
   "devDependencies": {
     "@babel/core": "^7.1.2",
